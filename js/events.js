@@ -6,7 +6,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').addClass( "tasty", "border", "3px solid red")
+  //$('img').addClass( "tasty", "border", "3px solid red")
   $('form').on('load', function(){
     $('img').addClass( "tasty", "border", "3px solid red")
   });
